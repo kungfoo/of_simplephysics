@@ -7,11 +7,13 @@
  *
  */
 
-#include "PhysicsSquare.h"
 #include "ofMain.h"
+#include "PhysicsSquare.h"
+
+using namespace mollusca;
 
 PhysicsSquare::PhysicsSquare(float& x, float& y, float& side) : PhysicsComponent(x, y), side(side){
-	
+
 }
 
 // inherited methods
@@ -22,7 +24,7 @@ void PhysicsSquare::draw(){
 }
 
 void PhysicsSquare::relax(){
-	
+
 }
 
 bool PhysicsSquare::intersects(int& x, int& y){
@@ -30,13 +32,13 @@ bool PhysicsSquare::intersects(int& x, int& y){
 }
 
 void PhysicsSquare::mouseOver(){
-	
+
 }
 
 void PhysicsSquare::mouseOut(){
-	
+
 }
 
 void PhysicsSquare::mouseClicked(){
-	
+
 }

@@ -1,0 +1,952 @@
+# depslib dependency file v1.0
+1236433837 source:/home/kungfoo/of_preRelease_v0.05_linux_cb_FAT/apps/examples/of_simplephysics/src/PhysicsSquare.cpp
+	"ofMain.h"
+	"PhysicsSquare.h"
+
+1236433651 /home/kungfoo/of_preRelease_v0.05_linux_cb_FAT/apps/examples/of_simplephysics/src/PhysicsSquare.h
+	"PhysicsComponent.h"
+	"MouseListener.h"
+	"ofMain.h"
+
+1236433628 /home/kungfoo/of_preRelease_v0.05_linux_cb_FAT/apps/examples/of_simplephysics/src/PhysicsComponent.h
+	"ofMain.h"
+	"Vector3d.h"
+	"Drawable.h"
+
+1236433670 /home/kungfoo/of_preRelease_v0.05_linux_cb_FAT/apps/examples/of_simplephysics/src/Drawable.h
+	"ofMain.h"
+
+1204213442 /home/kungfoo/of_preRelease_v0.05_linux_cb_FAT/libs/openFrameworks//ofMain.h
+	"ofConstants.h"
+	"ofMath.h"
+	"ofUtils.h"
+	"ofTypes.h"
+	"ofSerial.h"
+	"ofTexture.h"
+	"ofTrueTypeFont.h"
+	"ofGraphics.h"
+	"ofImage.h"
+	"ofSimpleApp.h"
+	"ofAppRunner.h"
+	"ofSoundStream.h"
+	"ofSoundPlayer.h"
+	"ofVideoGrabber.h"
+	"ofVideoPlayer.h"
+
+1207780116 /home/kungfoo/of_preRelease_v0.05_linux_cb_FAT/libs/openFrameworks/utils/ofConstants.h
+	<windows.h>
+	"GLee.h"
+	"glut.h"
+	<unistd.h>
+	"GLee.h"
+	<GLUT/glut.h>
+	<ApplicationServices/ApplicationServices.h>
+	<unistd.h>
+	"GLee.h"
+	<GL/glut.h>
+	<stdio.h>
+	<math.h>
+	<time.h>
+	<stdlib.h>
+	<string.h>
+	<iostream>
+	<vector>
+	<string>
+	<sstream>
+	<iomanip>
+
+1163534358 /home/kungfoo/of_preRelease_v0.05_linux_cb_FAT/libs/glee//GLee.h
+	<windows.h>
+	<GL/gl.h>
+	<OpenGL/gl.h>
+	<GL/gl.h>
+	<GL/glx.h>
+	<stddef.h>
+
+1224647491 /usr/include/GL/gl.h
+	"gl_mangle.h"
+	<stdlib.h>
+	<windows.h>
+	<GL/mesa_wgl.h>
+	<GL/glext.h>
+
+1224647491 /usr/include/GL/gl_mangle.h
+
+1233224516 /usr/include/stdlib.h
+	<features.h>
+	<stddef.h>
+	<bits/waitflags.h>
+	<bits/waitstatus.h>
+	<xlocale.h>
+	<sys/types.h>
+	<alloca.h>
+	<bits/stdlib.h>
+	<bits/stdlib-ldbl.h>
+
+1233224479 /usr/include/features.h
+	<sys/cdefs.h>
+	<gnu/stubs.h>
+
+1233224534 /usr/include/sys/cdefs.h
+	<features.h>
+	<bits/wordsize.h>
+
+1233224516 /usr/include/bits/wordsize.h
+
+1233224479 /usr/include/gnu/stubs.h
+	<bits/wordsize.h>
+	<gnu/stubs-32.h>
+	<gnu/stubs-64.h>
+
+1233223752 /usr/include/gnu/stubs-32.h
+
+1233224530 /usr/include/bits/waitflags.h
+
+1233224530 /usr/include/bits/waitstatus.h
+	<endian.h>
+
+1233224522 /usr/include/endian.h
+	<features.h>
+	<bits/endian.h>
+
+1233224522 /usr/include/bits/endian.h
+
+1233224489 /usr/include/xlocale.h
+
+1233224530 /usr/include/sys/types.h
+	<features.h>
+	<bits/types.h>
+	<time.h>
+	<stddef.h>
+	<endian.h>
+	<sys/select.h>
+	<sys/sysmacros.h>
+	<bits/pthreadtypes.h>
+
+1233224530 /usr/include/bits/types.h
+	<features.h>
+	<bits/wordsize.h>
+	<bits/typesizes.h>
+
+1233224530 /usr/include/bits/typesizes.h
+
+1233224526 /usr/include/time.h
+	<features.h>
+	<stddef.h>
+	<bits/time.h>
+	<bits/types.h>
+	<bits/types.h>
+	<bits/types.h>
+	<bits/types.h>
+	<bits/types.h>
+	<xlocale.h>
+
+1233224526 /usr/include/bits/time.h
+	<bits/types.h>
+	<bits/types.h>
+
+1233224534 /usr/include/sys/select.h
+	<features.h>
+	<bits/types.h>
+	<bits/select.h>
+	<bits/sigset.h>
+	<time.h>
+	<bits/time.h>
+
+1233224534 /usr/include/bits/select.h
+
+1233224514 /usr/include/bits/sigset.h
+
+1233224530 /usr/include/sys/sysmacros.h
+	<features.h>
+
+1233224530 /usr/include/bits/pthreadtypes.h
+	<bits/wordsize.h>
+
+1233224516 /usr/include/alloca.h
+	<features.h>
+	<stddef.h>
+
+1233224516 /usr/include/bits/stdlib.h
+
+1233224516 /usr/include/bits/stdlib-ldbl.h
+
+1224647491 /usr/include/GL/glext.h
+	<windows.h>
+	<stddef.h>
+	<inttypes.h>
+	<inttypes.h>
+	<inttypes.h>
+	<stdint.h>
+	<stdint.h>
+	<inttypes.h>
+
+1233224516 /usr/include/inttypes.h
+	<features.h>
+	<stdint.h>
+	<stddef.h>
+
+1233224516 /usr/include/stdint.h
+	<features.h>
+	<bits/wchar.h>
+	<bits/wordsize.h>
+
+1233224524 /usr/include/bits/wchar.h
+
+1224647492 /usr/include/GL/glx.h
+	<GL/vms_x_fix.h>
+	<X11/Xlib.h>
+	<X11/Xutil.h>
+	<GL/gl.h>
+	"glx_mangle.h"
+	<GL/glxext.h>
+
+1228678960 /usr/include/X11/Xlib.h
+	<sys/types.h>
+	<sys/types.h>
+	<sys/types.h>
+	<stdint.h>
+	<X11/X.h>
+	<X11/Xfuncproto.h>
+	<X11/Xosdefs.h>
+	<stddef.h>
+	<stdlib.h>
+
+1228678608 /usr/include/X11/X.h
+	<X11/Xmd.h>
+
+1228678608 /usr/include/X11/Xmd.h
+	<sys/isa_defs.h>
+
+1228678608 /usr/include/X11/Xfuncproto.h
+
+1228678608 /usr/include/X11/Xosdefs.h
+
+1228678960 /usr/include/X11/Xutil.h
+	<X11/Xlib.h>
+	<X11/keysym.h>
+
+1228678608 /usr/include/X11/keysym.h
+	<X11/keysymdef.h>
+
+1228678608 /usr/include/X11/keysymdef.h
+
+1224647492 /usr/include/GL/glx_mangle.h
+
+1224647492 /usr/include/GL/glxext.h
+	<windows.h>
+	<inttypes.h>
+	<inttypes.h>
+	<inttypes.h>
+	<stdint.h>
+	<stdint.h>
+	<inttypes.h>
+
+1210422251 /usr/include/GL/glut.h
+	"freeglut_std.h"
+
+1210422251 /usr/include/GL/freeglut_std.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1224647491 /usr/include/GL/glu.h
+	"glu_mangle.h"
+	<GL/gl.h>
+
+1224647491 /usr/include/GL/glu_mangle.h
+
+1233224530 /usr/include/unistd.h
+	<features.h>
+	<bits/posix_opt.h>
+	<bits/environments.h>
+	<bits/types.h>
+	<stddef.h>
+	<bits/confname.h>
+	<getopt.h>
+	<bits/unistd.h>
+
+1233224530 /usr/include/bits/posix_opt.h
+
+1233224530 /usr/include/bits/environments.h
+	<bits/wordsize.h>
+
+1233224530 /usr/include/bits/confname.h
+
+1233224530 /usr/include/getopt.h
+	<ctype.h>
+
+1233224507 /usr/include/ctype.h
+	<features.h>
+	<bits/types.h>
+	<endian.h>
+	<xlocale.h>
+
+1233224530 /usr/include/bits/unistd.h
+
+1233224519 /usr/include/stdio.h
+	<features.h>
+	<stddef.h>
+	<bits/types.h>
+	<libio.h>
+	<stdarg.h>
+	<bits/stdio_lim.h>
+	<bits/sys_errlist.h>
+	<getopt.h>
+	<bits/stdio.h>
+	<bits/stdio2.h>
+	<bits/stdio-ldbl.h>
+
+1233224519 /usr/include/libio.h
+	<_G_config.h>
+	<stdarg.h>
+	<sys/cdefs.h>
+	<bits/stdio-lock.h>
+	<shlib-compat.h>
+	<bits/libio-ldbl.h>
+
+1233224519 /usr/include/_G_config.h
+	<bits/types.h>
+	<stddef.h>
+	<wchar.h>
+	<gconv.h>
+
+1233224524 /usr/include/wchar.h
+	<features.h>
+	<stdio.h>
+	<stdarg.h>
+	<bits/wchar.h>
+	<stddef.h>
+	<wctype.h>
+	<xlocale.h>
+	<xlocale.h>
+	<xlocale.h>
+	<wctype.h>
+	<bits/wchar2.h>
+	<bits/wchar-ldbl.h>
+
+1233224539 /usr/include/wctype.h
+	<features.h>
+	<bits/types.h>
+	<wchar.h>
+	<endian.h>
+	<xlocale.h>
+
+1233224524 /usr/include/bits/wchar2.h
+
+1233224524 /usr/include/bits/wchar-ldbl.h
+
+1233224481 /usr/include/gconv.h
+	<features.h>
+	<wchar.h>
+	<stddef.h>
+
+1233224519 /usr/include/bits/stdio-lock.h
+	<bits/libc-lock.h>
+	<lowlevellock.h>
+
+1233224479 /usr/include/bits/libc-lock.h
+	<pthread.h>
+	<stddef.h>
+	<lowlevellock.h>
+	<tls.h>
+	<pthread-functions.h>
+	<bp-sym.h>
+
+1233224545 /usr/include/pthread.h
+	<features.h>
+	<endian.h>
+	<sched.h>
+	<time.h>
+	<signal.h>
+	<bits/pthreadtypes.h>
+	<bits/setjmp.h>
+	<bits/wordsize.h>
+
+1233224530 /usr/include/sched.h
+	<features.h>
+	<bits/types.h>
+	<stddef.h>
+	<time.h>
+	<bits/sched.h>
+
+1233224530 /usr/include/bits/sched.h
+
+1233224514 /usr/include/signal.h
+	<features.h>
+	<bits/sigset.h>
+	<bits/types.h>
+	<bits/signum.h>
+	<time.h>
+	<bits/siginfo.h>
+	<bits/sigaction.h>
+	<bits/sigcontext.h>
+	<stddef.h>
+	<bits/sigstack.h>
+	<sys/ucontext.h>
+	<bits/pthreadtypes.h>
+	<bits/sigthread.h>
+
+1233224514 /usr/include/bits/signum.h
+
+1233224515 /usr/include/bits/siginfo.h
+	<bits/wordsize.h>
+
+1233224514 /usr/include/bits/sigaction.h
+
+1233224514 /usr/include/bits/sigcontext.h
+	<bits/wordsize.h>
+
+1233224515 /usr/include/bits/sigstack.h
+
+1233224516 /usr/include/sys/ucontext.h
+	<features.h>
+	<signal.h>
+	<bits/wordsize.h>
+	<bits/sigcontext.h>
+
+1233224515 /usr/include/bits/sigthread.h
+
+1233224514 /usr/include/bits/setjmp.h
+	<bits/wordsize.h>
+
+1233224519 /usr/include/bits/libio-ldbl.h
+
+1233224517 /usr/include/bits/stdio_lim.h
+
+1233224519 /usr/include/bits/sys_errlist.h
+
+1233224519 /usr/include/bits/stdio.h
+
+1233224519 /usr/include/bits/stdio2.h
+
+1233224519 /usr/include/bits/stdio-ldbl.h
+
+1233224511 /usr/include/math.h
+	<features.h>
+	<bits/huge_val.h>
+	<bits/huge_valf.h>
+	<bits/huge_vall.h>
+	<bits/inf.h>
+	<bits/nan.h>
+	<bits/mathdef.h>
+	<bits/mathcalls.h>
+	<bits/mathcalls.h>
+	<bits/mathcalls.h>
+	<bits/mathinline.h>
+
+1233224511 /usr/include/bits/huge_val.h
+	<endian.h>
+
+1233224511 /usr/include/bits/huge_valf.h
+
+1233224511 /usr/include/bits/huge_vall.h
+
+1233224511 /usr/include/bits/inf.h
+
+1233224511 /usr/include/bits/nan.h
+	<endian.h>
+
+1233224511 /usr/include/bits/mathdef.h
+	<bits/wordsize.h>
+
+1233224511 /usr/include/bits/mathcalls.h
+
+1233224511 /usr/include/bits/mathinline.h
+
+1233224522 /usr/include/string.h
+	<features.h>
+	<stddef.h>
+	<xlocale.h>
+	<bits/string.h>
+	<bits/string2.h>
+	<bits/string3.h>
+
+1233224522 /usr/include/bits/string.h
+
+1233224522 /usr/include/bits/string2.h
+	<endian.h>
+	<bits/types.h>
+	<stdlib.h>
+
+1233224522 /usr/include/bits/string3.h
+
+1206991210 /home/kungfoo/of_preRelease_v0.05_linux_cb_FAT/libs/openFrameworks/utils/ofMath.h
+	"ofConstants.h"
+
+1204939360 /home/kungfoo/of_preRelease_v0.05_linux_cb_FAT/libs/openFrameworks/utils/ofUtils.h
+	"ofConstants.h"
+	<shellapi.h>
+
+1207414100 /home/kungfoo/of_preRelease_v0.05_linux_cb_FAT/libs/openFrameworks/utils/ofTypes.h
+	"ofConstants.h"
+
+1204937454 /home/kungfoo/of_preRelease_v0.05_linux_cb_FAT/libs/openFrameworks/communication/ofSerial.h
+	"ofConstants.h"
+	<termios.h>
+	<sys/ioctl.h>
+	<getopt.h>
+	<dirent.h>
+	<Winbase.h>
+	<tchar.h>
+	<iostream>
+	<string.h>
+	<setupapi.h>
+	<regstr.h>
+	<winioctl.h>
+	<initguid.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<fcntl.h>
+	<errno.h>
+	<ctype.h>
+
+1233224532 /usr/include/termios.h
+	<features.h>
+	<bits/types.h>
+	<bits/termios.h>
+	<sys/ttydefaults.h>
+
+1233224532 /usr/include/bits/termios.h
+
+1233224532 /usr/include/sys/ttydefaults.h
+
+1233224534 /usr/include/sys/ioctl.h
+	<features.h>
+	<bits/ioctls.h>
+	<bits/ioctl-types.h>
+	<sys/ttydefaults.h>
+
+1233224534 /usr/include/bits/ioctls.h
+	<asm/ioctls.h>
+
+1233265353 /usr/include/asm/ioctls.h
+	<asm/ioctl.h>
+
+1233265353 /usr/include/asm/ioctl.h
+	<asm-generic/ioctl.h>
+
+1233265346 /usr/include/asm-generic/ioctl.h
+
+1233224534 /usr/include/bits/ioctl-types.h
+	<asm/ioctls.h>
+
+1233224527 /usr/include/dirent.h
+	<features.h>
+	<bits/types.h>
+	<bits/dirent.h>
+	<bits/types.h>
+	<bits/posix1_lim.h>
+	<stddef.h>
+
+1233224527 /usr/include/bits/dirent.h
+
+1233224530 /usr/include/bits/posix1_lim.h
+	<bits/local_lim.h>
+
+1233224530 /usr/include/bits/local_lim.h
+	<linux/limits.h>
+
+1233265350 /usr/include/linux/limits.h
+
+1233224531 /usr/include/fcntl.h
+	<features.h>
+	<bits/fcntl.h>
+	<sys/stat.h>
+	<bits/fcntl2.h>
+
+1233224531 /usr/include/bits/fcntl.h
+	<sys/types.h>
+	<bits/wordsize.h>
+	<bits/uio.h>
+
+1233224534 /usr/include/bits/uio.h
+	<sys/types.h>
+
+1233224531 /usr/include/sys/stat.h
+	<features.h>
+	<bits/types.h>
+	<time.h>
+	<bits/stat.h>
+
+1233224531 /usr/include/bits/stat.h
+
+1233224531 /usr/include/bits/fcntl2.h
+
+1233224516 /usr/include/errno.h
+	<features.h>
+	<bits/errno.h>
+
+1233224516 /usr/include/bits/errno.h
+	<linux/errno.h>
+
+1233265350 /usr/include/linux/errno.h
+	<asm/errno.h>
+
+1233265353 /usr/include/asm/errno.h
+	<asm-generic/errno.h>
+
+1233265346 /usr/include/asm-generic/errno.h
+	<asm-generic/errno-base.h>
+
+1233265346 /usr/include/asm-generic/errno-base.h
+
+1205882982 /home/kungfoo/of_preRelease_v0.05_linux_cb_FAT/libs/openFrameworks/graphics/ofTexture.h
+	"ofConstants.h"
+	"ofGraphics.h"
+
+1193147222 /home/kungfoo/of_preRelease_v0.05_linux_cb_FAT/libs/openFrameworks/graphics/ofGraphics.h
+	"ofConstants.h"
+
+1206915420 /home/kungfoo/of_preRelease_v0.05_linux_cb_FAT/libs/openFrameworks/graphics/ofTrueTypeFont.h
+	"ofConstants.h"
+	"ofGraphics.h"
+	"ofUtils.h"
+	"ofTypes.h"
+
+1205882980 /home/kungfoo/of_preRelease_v0.05_linux_cb_FAT/libs/openFrameworks/graphics/ofImage.h
+	"ofConstants.h"
+	"ofTexture.h"
+	"ofGraphics.h"
+	"ofAppRunner.h"
+	"FreeImage.h"
+
+1197054336 /home/kungfoo/of_preRelease_v0.05_linux_cb_FAT/libs/openFrameworks/app/ofAppRunner.h
+	"ofMain.h"
+	"ofSimpleApp.h"
+	"ofGraphics.h"
+	"ofMath.h"
+	"ofUtils.h"
+
+1192919184 /home/kungfoo/of_preRelease_v0.05_linux_cb_FAT/libs/openFrameworks/app/ofSimpleApp.h
+	"ofConstants.h"
+	"ofUtils.h"
+
+1182716608 /home/kungfoo/of_preRelease_v0.05_linux_cb_FAT/libs/FreeImage/FreeImage.h
+	<wchar.h>
+	<inttypes.h>
+
+1198686510 /home/kungfoo/of_preRelease_v0.05_linux_cb_FAT/libs/openFrameworks/sound/ofSoundStream.h
+	"ofConstants.h"
+	"ofSimpleApp.h"
+
+1199465394 /home/kungfoo/of_preRelease_v0.05_linux_cb_FAT/libs/openFrameworks/sound/ofSoundPlayer.h
+	"ofConstants.h"
+	"fmod.h"
+	"fmod_errors.h"
+
+1190011397 /home/kungfoo/of_preRelease_v0.05_linux_cb_FAT/libs/fmodex/inc/fmod.h
+	"fmod_codec.h"
+	"fmod_dsp.h"
+
+1190011397 /home/kungfoo/of_preRelease_v0.05_linux_cb_FAT/libs/fmodex/inc/fmod_codec.h
+
+1190011397 /home/kungfoo/of_preRelease_v0.05_linux_cb_FAT/libs/fmodex/inc/fmod_dsp.h
+
+1190011397 /home/kungfoo/of_preRelease_v0.05_linux_cb_FAT/libs/fmodex/inc/fmod_errors.h
+	"fmod.h"
+
+1207779834 /home/kungfoo/of_preRelease_v0.05_linux_cb_FAT/libs/openFrameworks/video/ofVideoGrabber.h
+	"ofConstants.h"
+	"ofTexture.h"
+	"ofGraphics.h"
+	"ofQtUtils.h"
+	"videoInput.h"
+	"ofUCUtils.h"
+
+1190037670 /home/kungfoo/of_preRelease_v0.05_linux_cb_FAT/libs/openFrameworks/video/ofQtUtils.h
+	"ofConstants.h"
+	"ofGraphics.h"
+	<Quicktime/QuickTime.h>
+	<CoreServices/CoreServices.h>
+	<ApplicationServices/ApplicationServices.h>
+	<QTML.h>
+	<FixMath.h>
+	<QuickTimeComponents.h>
+	<TextUtils.h>
+
+1197573300 /home/kungfoo/of_preRelease_v0.05_linux_cb_FAT/libs/openFrameworks/video/ofUCUtils.h
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<unicap.h>
+	<unistd.h>
+	<string.h>
+
+1198296891 /home/kungfoo/of_preRelease_v0.05_linux_cb_FAT/libs/unicap/include/unicap.h
+	<sys/types.h>
+	<sys/time.h>
+	<unistd.h>
+	<unicap_status.h>
+	<unicap_version.h>
+
+1233224526 /usr/include/sys/time.h
+	<features.h>
+	<bits/types.h>
+	<time.h>
+	<bits/time.h>
+	<sys/select.h>
+
+1198296891 /home/kungfoo/of_preRelease_v0.05_linux_cb_FAT/libs/unicap/include/unicap_status.h
+
+1198296891 /home/kungfoo/of_preRelease_v0.05_linux_cb_FAT/libs/unicap/include/unicap_version.h
+
+1197054522 /home/kungfoo/of_preRelease_v0.05_linux_cb_FAT/libs/openFrameworks/video/ofVideoPlayer.h
+	"ofConstants.h"
+	"ofTexture.h"
+	"Decoder.h"
+	"ofQtUtils.h"
+
+1204835383 /home/kungfoo/of_preRelease_v0.05_linux_cb_FAT/libs/fobs/inc/Decoder.h
+	"common.h"
+	<inttypes.h>
+
+1204835383 /home/kungfoo/of_preRelease_v0.05_linux_cb_FAT/libs/fobs/inc/common.h
+	"Error.h"
+
+1204835382 /home/kungfoo/of_preRelease_v0.05_linux_cb_FAT/libs/fobs/inc/Error.h
+
+1236433686 /home/kungfoo/of_preRelease_v0.05_linux_cb_FAT/apps/examples/of_simplephysics/src/Vector3d.h
+
+1236433640 /home/kungfoo/of_preRelease_v0.05_linux_cb_FAT/apps/examples/of_simplephysics/src/MouseListener.h
+
+1236433769 source:/home/kungfoo/of_preRelease_v0.05_linux_cb_FAT/apps/examples/of_simplephysics/src/main.cpp
+	"ofMain.h"
+	"testApp.h"
+
+1236433901 /home/kungfoo/of_preRelease_v0.05_linux_cb_FAT/apps/examples/of_simplephysics/src/testApp.h
+	"ofMain.h"
+	"ofAddons.h"
+	"PhysicsComponent.h"
+	"Drawable.h"
+	"Dragable.h"
+	"MouseListener.h"
+	"PhysicsSquare.h"
+
+1207658365 /home/kungfoo/of_preRelease_v0.05_linux_cb_FAT/addons//ofAddons.h
+	"ofxCvMain.h"
+	"ofxObjLoader.h"
+	"ofxDirList.h"
+	"ofxVectorMath.h"
+	"ofxNetwork.h"
+	"ofxVectorGraphics.h"
+	"ofxOsc.h"
+	"ofxThread.h"
+	"ofxXmlSettings.h"
+
+1236433663 /home/kungfoo/of_preRelease_v0.05_linux_cb_FAT/apps/examples/of_simplephysics/src/Dragable.h
+
+1236432803 source:/home/kungfoo/of_preRelease_v0.05_linux_cb_FAT/apps/examples/of_simplephysics/src/testApp.cpp
+	"testApp.h"
+
+1206991106 source:/home/kungfoo/of_preRelease_v0.05_linux_cb_FAT/libs/openFrameworks/app/ofAppRunner.cpp
+	"ofAppRunner.h"
+	"ofAppGlutGlue.h"
+
+1206921286 /home/kungfoo/of_preRelease_v0.05_linux_cb_FAT/libs/openFrameworks/app/ofAppGlutGlue.h
+
+1205018190 source:/home/kungfoo/of_preRelease_v0.05_linux_cb_FAT/libs/openFrameworks/communication/ofSerial.cpp
+	"ofSerial.h"
+
+1199465392 source:/home/kungfoo/of_preRelease_v0.05_linux_cb_FAT/libs/openFrameworks/graphics/ofGraphics.cpp
+	"ofGraphics.h"
+	<OpenGL/glu.h>
+	"GL/glu.h"
+	"glu.h"
+	<vector>
+
+1205018232 source:/home/kungfoo/of_preRelease_v0.05_linux_cb_FAT/libs/openFrameworks/graphics/ofImage.cpp
+	"ofImage.h"
+
+1198686768 source:/home/kungfoo/of_preRelease_v0.05_linux_cb_FAT/libs/openFrameworks/graphics/ofTexture.cpp
+	"ofTexture.h"
+	"ofUtils.h"
+	"ofAppRunner.h"
+
+1206991130 source:/home/kungfoo/of_preRelease_v0.05_linux_cb_FAT/libs/openFrameworks/graphics/ofTrueTypeFont.cpp
+	"ofTrueTypeFont.h"
+	<ft2build.h>
+	<freetype/freetype.h>
+	<freetype/ftglyph.h>
+	<freetype/ftoutln.h>
+	<freetype/fttrigon.h>
+	"ft2build.h"
+	"freetype.h"
+	"ftglyph.h"
+	"ftoutln.h"
+	"fttrigon.h"
+
+1182727988 /home/kungfoo/of_preRelease_v0.05_linux_cb_FAT/libs/freetype/include/ft2build.h
+	<freetype/config/ftheader.h>
+
+1182727988 /home/kungfoo/of_preRelease_v0.05_linux_cb_FAT/libs/freetype/include/freetype2/freetype/config/ftheader.h
+
+1182727988 /home/kungfoo/of_preRelease_v0.05_linux_cb_FAT/libs/freetype/include/freetype2/freetype/freetype.h
+	<ft2build.h>
+
+1182727988 /home/kungfoo/of_preRelease_v0.05_linux_cb_FAT/libs/freetype/include/freetype2/freetype/ftglyph.h
+	<ft2build.h>
+
+1182727988 /home/kungfoo/of_preRelease_v0.05_linux_cb_FAT/libs/freetype/include/freetype2/freetype/ftoutln.h
+	<ft2build.h>
+
+1182727988 /home/kungfoo/of_preRelease_v0.05_linux_cb_FAT/libs/freetype/include/freetype2/freetype/fttrigon.h
+
+1206991162 source:/home/kungfoo/of_preRelease_v0.05_linux_cb_FAT/libs/openFrameworks/sound/ofSoundPlayer.cpp
+	"ofSoundPlayer.h"
+	"ofUtils.h"
+
+1198686498 source:/home/kungfoo/of_preRelease_v0.05_linux_cb_FAT/libs/openFrameworks/sound/ofSoundStream.cpp
+	"ofSoundStream.h"
+	"RtAudio.h"
+
+1177616182 /home/kungfoo/of_preRelease_v0.05_linux_cb_FAT/libs/rtAudio/RtAudio.h
+	"RtError.h"
+	<string>
+	<vector>
+	<windows.h>
+	<process.h>
+	<pthread.h>
+	<CoreAudio/AudioHardware.h>
+
+1177616182 /home/kungfoo/of_preRelease_v0.05_linux_cb_FAT/libs/rtAudio/RtError.h
+	<iostream>
+	<string>
+
+1180020132 source:/home/kungfoo/of_preRelease_v0.05_linux_cb_FAT/libs/openFrameworks/utils/ofMath.cpp
+	"ofMath.h"
+
+1204939340 source:/home/kungfoo/of_preRelease_v0.05_linux_cb_FAT/libs/openFrameworks/utils/ofUtils.cpp
+	"ofUtils.h"
+
+1207854119 source:/home/kungfoo/of_preRelease_v0.05_linux_cb_FAT/libs/openFrameworks/video/ofUCUtils.cpp
+	"ofUCUtils.h"
+	<stdio.h>
+	<stdint.h>
+	<avcodec.h>
+
+1179421440 /home/kungfoo/of_preRelease_v0.05_linux_cb_FAT/libs/ffmpeg/libavcodec/avcodec.h
+	"avutil.h"
+	<sys/types.h>
+
+1179318354 /home/kungfoo/of_preRelease_v0.05_linux_cb_FAT/libs/ffmpeg/libavutil/avutil.h
+	"common.h"
+	"mathematics.h"
+	"rational.h"
+	"integer.h"
+	"intfloat_readwrite.h"
+	"log.h"
+
+1197552845 /home/kungfoo/of_preRelease_v0.05_linux_cb_FAT/libs/ffmpeg/libavutil/common.h
+	<inttypes.h>
+	"config.h"
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+	<limits.h>
+	<errno.h>
+	<math.h>
+	"internal.h"
+
+1233224479 /usr/include/limits.h
+	<features.h>
+	<bits/wordsize.h>
+	<bits/posix1_lim.h>
+	<bits/posix2_lim.h>
+	<bits/xopen_lim.h>
+
+1233224530 /usr/include/bits/posix2_lim.h
+
+1233224479 /usr/include/bits/xopen_lim.h
+	<bits/stdio_lim.h>
+	<bits/wordsize.h>
+
+1197552845 /home/kungfoo/of_preRelease_v0.05_linux_cb_FAT/libs/ffmpeg/libavutil/mathematics.h
+	"rational.h"
+
+1197552845 /home/kungfoo/of_preRelease_v0.05_linux_cb_FAT/libs/ffmpeg/libavutil/rational.h
+
+1197552845 /home/kungfoo/of_preRelease_v0.05_linux_cb_FAT/libs/ffmpeg/libavutil/integer.h
+
+1197552845 /home/kungfoo/of_preRelease_v0.05_linux_cb_FAT/libs/ffmpeg/libavutil/intfloat_readwrite.h
+	"common.h"
+
+1197552845 /home/kungfoo/of_preRelease_v0.05_linux_cb_FAT/libs/ffmpeg/libavutil/log.h
+	<stdarg.h>
+
+1207831549 source:/home/kungfoo/of_preRelease_v0.05_linux_cb_FAT/libs/openFrameworks/video/ofVideoGrabber.cpp
+	"ofVideoGrabber.h"
+	"ofV4LUtils.h"
+
+1197167158 /home/kungfoo/of_preRelease_v0.05_linux_cb_FAT/libs/openFrameworks/video/ofV4LUtils.h
+	"ofConstants.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<errno.h>
+	<fcntl.h>
+	<unistd.h>
+	<sys/ioctl.h>
+	<sys/stat.h>
+	<sys/mman.h>
+	<sys/types.h>
+	<time.h>
+	<linux/videodev.h>
+
+1233224534 /usr/include/sys/mman.h
+	<features.h>
+	<bits/types.h>
+	<stddef.h>
+	<bits/mman.h>
+
+1233224534 /usr/include/bits/mman.h
+
+1233265352 /usr/include/linux/videodev.h
+	<linux/ioctl.h>
+	<linux/videodev2.h>
+
+1233265350 /usr/include/linux/ioctl.h
+	<asm/ioctl.h>
+
+1233265352 /usr/include/linux/videodev2.h
+	<sys/time.h>
+	<linux/ioctl.h>
+	<linux/types.h>
+
+1233265351 /usr/include/linux/types.h
+	<linux/posix_types.h>
+	<asm/types.h>
+
+1233265351 /usr/include/linux/posix_types.h
+	<linux/stddef.h>
+	<asm/posix_types.h>
+
+1233265351 /usr/include/linux/stddef.h
+
+1233265353 /usr/include/asm/posix_types.h
+	"posix_types_32.h"
+	"posix_types_64.h"
+
+1233265353 /usr/include/asm/posix_types_32.h
+
+1233265353 /usr/include/asm/posix_types_64.h
+
+1233265353 /usr/include/asm/types.h
+	<asm-generic/int-ll64.h>
+
+1233265346 /usr/include/asm-generic/int-ll64.h
+
+1207648237 source:/home/kungfoo/of_preRelease_v0.05_linux_cb_FAT/libs/openFrameworks/video/ofVideoPlayer.cpp
+	"ofVideoPlayer.h"
+	"ofUtils.h"
+
+1236433059 /home/kungfoo/of_preRelease_v0.05_linux_cb_FAT/apps/examples/of_simplephysics/src/mollusca.h
+	"Dragable.h"
+	"Drawable.h"
+	"MouseListener.h"
+	"PhysicsComponent.h"
+	"PhysicsSquare.h"
+	"Vector3d.h"
+

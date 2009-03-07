@@ -12,9 +12,13 @@
 
 #include "ofMain.h"
 
-class Drawable{
-	public:
-		virtual void draw() = 0;
-};
+namespace mollusca{
+
+    class Drawable{
+        public:
+            virtual void draw() = 0;
+    };
+
+}
 
 #endif

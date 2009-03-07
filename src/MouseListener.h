@@ -10,13 +10,15 @@
 #ifndef _MOUSE_LISTENER
 #define _MOUSE_LISTENER
 
-class MouseListener{
-	public:
-	
-	virtual bool intersects(int& x, int& y) = 0;
-	virtual void mouseClicked() = 0;
-	virtual void mouseOver() = 0;
-	virtual void mouseOut() = 0;
-};
+namespace mollusca{
+    class MouseListener{
+        public:
+
+        virtual bool intersects(int& x, int& y) = 0;
+        virtual void mouseClicked() = 0;
+        virtual void mouseOver() = 0;
+        virtual void mouseOut() = 0;
+    };
+}
 
 #endif

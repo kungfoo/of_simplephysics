@@ -12,23 +12,25 @@
 
 #include "PhysicsComponent.h"
 #include "MouseListener.h"
+
 #include "ofMain.h"
 
-class PhysicsSquare : PhysicsComponent, MouseListener{
-	private:
-		float side;
+namespace mollusca{
 
-	public:
-		PhysicsSquare(float& x, float& y, float& side);
-		
-		// inherited methods we have to implement
-		void draw();
-		void relax();
-		bool intersects(int& x, int& y);
-		void mouseClicked();
-		void mouseOver();
-		void mouseOut();
-};
+    class PhysicsSquare : PhysicsComponent, MouseListener{
+        private:
+            float side;
 
+        public:
+            PhysicsSquare(float& x, float& y, float& side);
 
+            // inherited methods we have to implement
+            void draw();
+            void relax();
+            bool intersects(int& x, int& y);
+            void mouseClicked();
+            void mouseOver();
+            void mouseOut();
+    };
+}
 #endif

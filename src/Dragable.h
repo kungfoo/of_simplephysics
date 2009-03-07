@@ -10,9 +10,11 @@
 #ifndef _DRAGABLE
 #define _DRAGABLE
 
-class Dragable{
-	public:
-		virtual void mouseDragged(int& x, int& y) = 0;
-};
+namespace mollusca{
+    class Dragable{
+        public:
+            virtual void mouseDragged(int& x, int& y) = 0;
+    };
+}
 
 #endif
