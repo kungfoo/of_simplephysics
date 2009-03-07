@@ -12,7 +12,12 @@
 
 namespace mollusca{
     class MouseListener{
+        protected:
+        bool hover;
+
         public:
+
+        MouseListener(): hover(false) {}
 
         virtual bool intersects(int& x, int& y) = 0;
         virtual void mouseClicked() = 0;

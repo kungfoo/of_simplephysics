@@ -14,8 +14,8 @@ using namespace mollusca;
 
 class testApp : public ofSimpleApp{
 	private:
-		PhysicsSquare* square1;
-		PhysicsSquare* square2;
+        static const int NUM_SQUARES = 20;
+        PhysicsSquare* squares[NUM_SQUARES];
 
 	public:
 

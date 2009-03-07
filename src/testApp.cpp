@@ -1,15 +1,21 @@
 #include "testApp.h"
+#include "stdio.h"
 
 //--------------------------------------------------------------
 void testApp::setup(){
-	float x = 10;
-	float y = 10;
-	float side = 150;
-	square1 = new mollusca::PhysicsSquare(x,y,side);
+    for(int i = 0; i < NUM_SQUARES; i++){
+        squares[i] = NULL;
+    }
 
-	float x2 = 150;
-	float y2 = 150;
-	square2 = new mollusca::PhysicsSquare(x2,y2,side);
+    float x1 = 10;
+    float y1 = 10;
+    float side = 80;
+
+    float x2 = 300;
+    float y2 = 320;
+
+    squares[0] = new PhysicsSquare(x1,y1, side);
+    squares[1] = new PhysicsSquare(x2,y2, side);
 }
 
 //--------------------------------------------------------------
@@ -20,8 +26,11 @@ void testApp::update(){
 //--------------------------------------------------------------
 void testApp::draw(){
 	ofBackground(0, 0, 0);
-	square1->draw();
-	square2->draw();
+	for(int i = 0; i < NUM_SQUARES; i++){
+        if(squares[i] != NULL){
+            squares[i]->draw();
+        }
+    }
 }
 
 //--------------------------------------------------------------
@@ -36,6 +45,16 @@ void testApp::keyReleased  (int key){
 
 //--------------------------------------------------------------
 void testApp::mouseMoved(int x, int y ){
+    for(int i = 0; i < NUM_SQUARES; i++){
+        if(squares[i] != NULL){
+            if(squares[i]->intersects(x,y)){
+                squares[i]->mouseOver();
+            }
+            else{
+                squares[i]->mouseOut();
+            }
+        }
+    }
 }
 
 //--------------------------------------------------------------

@@ -19,8 +19,15 @@ PhysicsSquare::PhysicsSquare(float& x, float& y, float& side) : PhysicsComponent
 // inherited methods
 
 void PhysicsSquare::draw(){
-	ofSetColor(128, 128, 128);
+    ofBeginShape();
+    if(hover){
+        ofSetColor(128, 128, 128);
+    }
+    else{
+        ofSetColor(0xff0000);
+    }
 	ofRect(position.x, position.y, side, side);
+	ofEndShape();
 }
 
 void PhysicsSquare::relax(){
@@ -28,15 +35,15 @@ void PhysicsSquare::relax(){
 }
 
 bool PhysicsSquare::intersects(int& x, int& y){
-	return false;
+	return x >= position.x && x <= position.x+side && y >= position.y && y <= position.y+side;
 }
 
 void PhysicsSquare::mouseOver(){
-
+    hover = true;
 }
 
 void PhysicsSquare::mouseOut(){
-
+    hover = false;
 }
 
 void PhysicsSquare::mouseClicked(){
